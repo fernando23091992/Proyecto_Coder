@@ -1,0 +1,53 @@
+h1 {
+    background-color:hotpink;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: coral;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: red;
+}
+
+nav li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    float: left;
+    padding: 100px;
+
+}
+
+nav li:hover {
+    background-color: blue;
+
+}
+
+nav ol {
+
+    display: none;
+    position: absolute;
+
+}
+
+nav li:hover>ol {
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+input {
+    display: block;
+}
+
+main{
+    background:url(/assets/imagenes/fondo.jpg)
+    
+}
