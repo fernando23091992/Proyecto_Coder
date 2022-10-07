@@ -14,40 +14,15 @@ p {
     color: red;
 }
 
-nav li {
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
-    float: left;
-    padding: 100px;
 
-}
 
-nav li:hover {
-    background-color: blue;
-
-}
-
-nav ol {
-
-    display: none;
-    position: absolute;
-
-}
-
-nav li:hover>ol {
-    display: block;
-}
-
-label {
-    display: block;
-}
-
-input {
-    display: block;
-}
 
 main{
     background:url(/assets/imagenes/fondo.jpg)
     
+}
+
+form{
+    flex-direction: column;
+    justify-content: right;
 }

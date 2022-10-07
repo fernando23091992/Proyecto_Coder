@@ -14,7 +14,7 @@
 <h1>La Pasteleria de Kary</h1>
 
 <!-- formulario de logueo -->
-<form action="">
+<form class="container" action="">
     <label for="">iniciar sesion</label>
 
     <input type="email">
@@ -22,34 +22,55 @@
     <label for="">password</label>
 
 </form>
+
 <header>
     <!-- menu desplegable -->
-    <nav>
-        
-        <ul>
-            <li>productos
-                <ol>
-                    <li> box dulces</li>
-                    <li>tartas y mesa dulce</li>
-                    <li>cupcakes y popcakes</li>
-                    <li>tortas de cumpleaños</li>
-                    <li>tortas clasicas</li>
-                    <li>alfajores</li>
-                    <li>pascuas</li>
-                    <li>candyBar</li>
-            </li>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/paginas/comocomprar.html">como comocomprar</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">box dulces</a></li>
+                            <li><a class="dropdown-item" href="#">tartas y mesa dulce</a></li>
+                            <li><a class="dropdown-item" href="#">cupcakes y pop cakes</a></li>
+                            <li><a class="dropdown-item" href="#">tortas de cumpleaños</a></li>
+                            <li><a class="dropdown-item" href="#">tortas clasicas</a></li>
+                            <li><a class="dropdown-item" href="#">alfajores</a></li>
+                            <li><a class="dropdown-item" href="#">pascuas</a></li>
+                            <li><a class="dropdown-item" href="#">candybar</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/paginas/quienessomos.html">Quienessomos</a></li>
+                            <li><a class="dropdown-item" href="/paginas/contacto.html">contacto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
 
+                    </li>
+                </ul>
 
-            </ol>
-
-            <li>categorias</li>
-            <li>Como Comprar</li>
-            <li>Quienes somos</li>
-            <li>Contacto</li>
-
-        </ul>
-
+            </div>
+        </div>
     </nav>
+
 
 </header>
 
@@ -62,15 +83,15 @@
 
         <hr>
         <section>
-            <h1>Categorias</h1>
-        <!-- imagenes con categorias -->
-        <img src="assets/imagenes/alafajores glaseados.jpg" alt="alfajores glaseados">
-        <p>alfajores</p>
-        <img src="assets/imagenes/box dulces.jpg" alt="box dulces">
-        <p>box dulces</p>
-        <img src="assets/imagenes/pascuas.jpg" alt="pascuas">
-        <p>pascuas</p>
-    </section>
+
+            <!-- imagenes con categorias -->
+            <img src="assets/imagenes/alafajores glaseados.jpg" alt="alfajores glaseados">
+            <p>alfajores</p>
+            <img src="assets/imagenes/box dulces.jpg" alt="box dulces">
+            <p>box dulces</p>
+            <img src="assets/imagenes/pascuas.jpg" alt="pascuas">
+            <p>pascuas</p>
+        </section>
     </main>
     <!-- inicio footer -->
     <hr>
@@ -95,12 +116,12 @@
         </aside>
 
 
-        <a href="/Users/outlet/Desktop/Proyecto Fernando Fanaro/proyecto_01/paginas/productos.html"></a>
+        
         <a href="/paginas/comocomprar.html">como comprar</a>
         <a href="/paginas/consultasopresupuestos.html">consultas o presupuestos</a>
         <a href="/paginas/contacto.html">Contacto</a>
         <a href="/paginas/quienessomos.html">quienessomos</a>
-        <a href="/paginas/productos.html">productos</a>
+    
 
     </footer>
     <script src="./js/bootstrap.bundle.min.js.map"></script>
