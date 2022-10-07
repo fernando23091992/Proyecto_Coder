@@ -1,28 +1,29 @@
-h1 {
-    background-color:hotpink;
-    color: green;
+main {
+    background-image:url(/assets/imagenes/fondo.jpg);
+}
+
+nav{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+i{
+background-color: black;
+}
+h1{
+    background-color: hotpink;
+    color: greenyellow;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 h2{
     text-align: center;
-    color: coral;
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
 }
-p {
+p{
     color: red;
-}
-
-
-
-
-main{
-    background:url(/assets/imagenes/fondo.jpg)
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
     
-}
-
-form{
-    flex-direction: column;
-    justify-content: right;
 }
