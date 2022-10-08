@@ -15,60 +15,65 @@
 <h1>La Pasteleria de Kary</h1>
 
 <!-- formulario de logueo -->
+
 <form>
-    <label for="">iniciar sesion</label>
+    <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
-    <input type="email">
-    <input type="password">
-    <label for="">password</label>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
 
-    
+    </div>
+    <button type="submit" class="btn btn-primary">ingresar</button>
 </form>
 
 <header>
     <!-- menu desplegable -->
     <nav class="navbar navbar-expand-lg .navbar-dark>
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./paginas/quienessomos.html">Quienessomos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">box dulces</a></li>
-                            <li><a class="dropdown-item" href="#">tartas y mesa dulce</a></li>
-                            <li><a class="dropdown-item" href="#">cupcakes y pop cakes</a></li>
-                            <li><a class="dropdown-item" href="#">tortas de cumplaños</a></li>
-                            <li><a class="dropdown-item" href="#">tortas clasicas</a></li>
-                            <li><a class="dropdown-item" href="#">alfajores</a></li>
-                            <li><a class="dropdown-item" href="#">pascuas</a></li>
-                            <li><a class="dropdown-item" href="#">candybar</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
+        <div class=" container-fluid">
+        <a class="navbar-brand" href="#">inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./paginas/quienessomos.html">Quienessomos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Productos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">box dulces</a></li>
+                        <li><a class="dropdown-item" href="#">tartas y mesa dulce</a></li>
+                        <li><a class="dropdown-item" href="#">cupcakes y pop cakes</a></li>
+                        <li><a class="dropdown-item" href="#">tortas de cumplaños</a></li>
+                        <li><a class="dropdown-item" href="#">tortas clasicas</a></li>
+                        <li><a class="dropdown-item" href="#">alfajores</a></li>
+                        <li><a class="dropdown-item" href="#">pascuas</a></li>
+                        <li><a class="dropdown-item" href="#">candybar</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#"></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
 
-                    </li>
-                </ul>
+                </li>
+            </ul>
 
-            </div>
+        </div>
         </div>
         <i class="bi bi-cart-dash"></i>
     </nav>
@@ -84,14 +89,66 @@
 
         <hr>
         <section>
+            <div class="container-fluid">
+                <h2>Productos destacados</h2>
+            </div>
+            <!-- tarjetas! -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="./assets/imagenes/alafajores glaseados.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Alfajores Glaeados</h5>
+                            <h6 class="card-subtitle"> $$$$$$$$</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus porro
+                                illo a pariatur cupiditate. Aliquid explicabo molestias reprehenderit cum. Molestias
+                                laudantium totam doloribus, illo at amet saepe nesciunt quos id?.</p>
+                            <button type="button" class="btn btn-primary">comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/imagenes/pascuas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Huevos de Pascuas</h5>
+                            <h6 class="card-subtitle">$$$$$$$$$</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                                architecto reiciendis? Vero maxime rem, dicta a consequuntur, voluptas quam natus
+                                perferendis iste repellendus nisi nulla? Maiores hic voluptatibus fugiat dolores.</p>
+                            <button type="button" class="btn btn-primary">comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/assets/imagenes/box dulces.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Box Dulces</h5>
+                            <h6 class="card-subtitle">$$$$$$$$</h6>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+                                reprehenderit optio repellendus animi deleniti, odit distinctio reiciendis? Repellat
+                                sunt quam qui fugiat iste. Iure delectus sunt repudiandae debitis suscipit quae!</p>
+                            <button type="button" class="btn btn-primary">comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/assets/imagenes/tarta frutilla.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tartas</h5>
+                            <h6 class="card-subtitle">$$$$$$</h6>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere totam
+                                quidem alias dolores a libero? Quam facilis sint velit nemo porro odit tenetur ea fugiat
+                                fuga? At eum aperiam ducimus!</p>
+                            <button type="button" class="btn btn-primary">comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <!-- imagenes con categorias -->
-            <img src="assets/imagenes/alafajores glaseados.jpg" alt="alfajores glaseados">
-            <p>alfajores</p>
-            <img src="assets/imagenes/box dulces.jpg" alt="box dulces">
-            <p>box dulces</p>
-            <img src="assets/imagenes/pascuas.jpg" alt="pascuas">
-            <p>pascuas</p>
+
         </section>
     </main>
     <!-- inicio footer -->

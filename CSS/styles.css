@@ -20,10 +20,23 @@ h2{
     text-align: center;
     text-decoration: underline;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: fuchsia;
+    background-size:10px;
+    justify-content: center;
+    padding: 10px;
+    
+}
+container-fluid{
+    justify-content: center;
 }
 p{
     color: red;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: solid;
+    
+}
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: right;
     
 }
