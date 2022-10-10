@@ -19,24 +19,21 @@ h1{
 h2{
     text-align: center;
     text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     background-color: fuchsia;
     background-size:10px;
     justify-content: center;
     padding: 10px;
     
 }
-container-fluid{
-    justify-content: center;
-}
-p{
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: solid;
-    
-}
+
 form {
     font-family: Arial, Helvetica, sans-serif;
     justify-content: right;
     
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    font-size: x-large;
 }

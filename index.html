@@ -16,7 +16,8 @@
 
 <!-- formulario de logueo -->
 
-<form>
+<form class=" container d-flex justify-content-end">
+    <div class="d-block">
     <div class="form-group">
         <label for="exampleInputEmail1" class="form-label">Email</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -26,20 +27,23 @@
         <label for="exampleInputPassword1" class="form-label">Contraseña</label>
         <input type="password" class="form-control" id="exampleInputPassword1">
     </div>
-
     </div>
-    <button type="submit" class="btn btn-primary">ingresar</button>
+    
+    
 </form>
-
+<div class=" container d-flex justify-content-end">
+<button type="submit" class="btn btn-primary">Registrarse</button>
+</div>
 <header>
     <!-- menu desplegable -->
-    <nav class="navbar navbar-expand-lg .navbar-dark>
-        <div class=" container-fluid">
-        <a class="navbar-brand" href="#">inicio</a>
+    <nav class="navbar navbar-expand-lg container" style="color:aquamarine ">
+        <div class="d-flex justify-content-center">
+        <a class=" navbar-brand" href="#">inicio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+    </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -88,14 +92,14 @@
     <main>
 
         <hr>
-        <section>
+        <section class="container">
             <div class="container-fluid">
                 <h2>Productos destacados</h2>
             </div>
             <!-- tarjetas! -->
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card">
+                    <div class="card text-center">
                         <img src="./assets/imagenes/alafajores glaseados.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Alfajores Glaeados</h5>
@@ -103,12 +107,13 @@
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus porro
                                 illo a pariatur cupiditate. Aliquid explicabo molestias reprehenderit cum. Molestias
                                 laudantium totam doloribus, illo at amet saepe nesciunt quos id?.</p>
-                            <button type="button" class="btn btn-primary">comprar</button>
+                            <!-- boton Comprar -->
+                            <button type="button" class="btn btn-success">comprar</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card text-center" >
                         <img src="assets/imagenes/pascuas.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Huevos de Pascuas</h5>
@@ -116,12 +121,12 @@
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
                                 architecto reiciendis? Vero maxime rem, dicta a consequuntur, voluptas quam natus
                                 perferendis iste repellendus nisi nulla? Maiores hic voluptatibus fugiat dolores.</p>
-                            <button type="button" class="btn btn-primary">comprar</button>
+                            <button type="button" class="btn btn-success">comprar</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card text-center">
                         <img src="/assets/imagenes/box dulces.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Box Dulces</h5>
@@ -129,12 +134,12 @@
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
                                 reprehenderit optio repellendus animi deleniti, odit distinctio reiciendis? Repellat
                                 sunt quam qui fugiat iste. Iure delectus sunt repudiandae debitis suscipit quae!</p>
-                            <button type="button" class="btn btn-primary">comprar</button>
+                            <button type="button" class="btn btn-success">comprar</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card text-center">
                         <img src="/assets/imagenes/tarta frutilla.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Tartas</h5>
@@ -142,7 +147,7 @@
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere totam
                                 quidem alias dolores a libero? Quam facilis sint velit nemo porro odit tenetur ea fugiat
                                 fuga? At eum aperiam ducimus!</p>
-                            <button type="button" class="btn btn-primary">comprar</button>
+                            <button  type="button" class="btn btn-success">comprar</button>
                         </div>
                     </div>
                 </div>
