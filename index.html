@@ -18,32 +18,33 @@
 
 <form class=" container d-flex justify-content-end">
     <div class="d-block">
-    <div class="form-group">
-        <label for="exampleInputEmail1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
     </div>
-    <div class="form-group">
-        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    </div>
-    
-    
+
+
 </form>
 <div class=" container d-flex justify-content-end">
-<button type="submit" class="btn btn-primary">Registrarse</button>
+    <button type="submit" class="btn btn-primary">Registrarse</button>
 </div>
 <header>
     <!-- menu desplegable -->
     <nav class="navbar navbar-expand-lg container" style="color:aquamarine ">
         <div class="d-flex justify-content-center">
-        <a class=" navbar-brand" href="#">inicio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
+            <a class=" navbar-brand" href="#">inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -113,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-center" >
+                    <div class="card text-center">
                         <img src="assets/imagenes/pascuas.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Huevos de Pascuas</h5>
@@ -147,7 +148,7 @@
                             <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere totam
                                 quidem alias dolores a libero? Quam facilis sint velit nemo porro odit tenetur ea fugiat
                                 fuga? At eum aperiam ducimus!</p>
-                            <button  type="button" class="btn btn-success">comprar</button>
+                            <button type="button" class="btn btn-success">comprar</button>
                         </div>
                     </div>
                 </div>
@@ -158,33 +159,39 @@
     </main>
     <!-- inicio footer -->
     <hr>
-    <footer>
-        <p>seguinos en redes sociales</p>
+
+    <footer class=" container-fluid row row-cols-1 row-cols-md-3  ">
+        <section class="container justify-content-center">
+        <div class="container d-flex justify-content-around">
+        <h5>seguinos en redes sociales</h5>
+        </div>
         <ul>
             <li>facebook</li>
             <li>instagram</li>
             <li>twitter</li>
             <li>e-mail</li>
         </ul>
+
         <!-- iconos redes sociales -->
 
         <!-- formas de pago e iconos -->
-        <aside>
+        <div class="container d-flex justify-content-center">
             <p>formas de pago</p>
             <ul>
                 <li>master card</li>
                 <li>mercado pago</li>
                 <li>visa</li>
             </ul>
-        </aside>
+        </div>
 
 
-
+        <div class="container-fluid d-flex justify-content-end">
         <a href="/paginas/comocomprar.html">como comprar</a>
         <a href="/paginas/consultasopresupuestos.html">consultas o presupuestos</a>
         <a href="/paginas/contacto.html">Contacto</a>
         <a href="/paginas/quienessomos.html">quienessomos</a>
-
+    </div>
+</section>
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
