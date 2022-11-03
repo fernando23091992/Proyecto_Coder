@@ -40,3 +40,6 @@ p{
 footer{
     background-color: hotpink;
 }
+li{
+ list-style:none
+}
