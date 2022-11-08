@@ -1,11 +1,11 @@
 main {
-    
     background-image: url(../assets/imagenes/fondo.jpg);
     justify-content: center;
 }
 
 .bi-cart4 {
     justify-content: end;
+
 }
 
 .card-body {
@@ -14,10 +14,11 @@ main {
     color: palevioletred;
 }
 
+
 h1 {
     background-color: hotpink;
     color: greenyellow;
-    font-family:cursive;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -29,6 +30,7 @@ h2 {
     background-size: 10px;
     justify-content: center;
     padding: 10px;
+
 }
 
 p {
@@ -42,37 +44,3 @@ p {
     color: blueviolet;
     font-size: x-large;
 }
-.text-title{
-    font-family:cursive;
-    color: rgb(27, 2, 119);
-}
-
-header {
-    background-color: rgb(253, 209, 217);
-}
-
-nav {
-    background-color: aqua;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-form {
-    background-color: rgb(253, 209, 217);
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: right;
-}
-
-footer {
-    background-color: hotpink;
-}
-
-li {
-    list-style: none;
-}
-
-.icon {
-    color: black;
-}
-
-/*# sourceMappingURL=styles.css.map */
